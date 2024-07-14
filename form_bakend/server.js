@@ -63,6 +63,6 @@ app.post("/data", async (req, res) => {
 //     }
 // });
 
-app.listen(3001, () => {
+app.listen("https://webortex-b.onrender.com" || 3001, () => {
   console.log("server is running");
 });
