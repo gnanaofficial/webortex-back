@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["https://webortex.netlify.app"],
     methods: ["GET", "POST"],
     credentials: true,
   })
