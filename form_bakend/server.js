@@ -62,7 +62,7 @@ app.post("/data", async (req, res) => {
 //         res.status(500).json('Error adding item to cart');
 //     }
 // });
-
-app.listen("https://webortex-b.onrender.com/" || 3001, () => {
+const PORT = process.env.PORT
+app.listen(PORT, () => {
   console.log("server is running");
 });
